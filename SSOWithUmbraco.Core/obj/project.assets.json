@@ -1,0 +1,110 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "AspNet.Security.OAuth.GitHub/6.0.11": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/AspNet.Security.OAuth.GitHub.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/AspNet.Security.OAuth.GitHub.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "AspNet.Security.OAuth.GitHub/6.0.11": {
+      "sha512": "5nTxgfRcvfOeFX/D/+toVQvKw16e7m1EnbVqpS0N0Pl36KGS9fVZrGCjnGePl08rkBgo+3N9HFJj/1eCw9kslw==",
+      "type": "package",
+      "path": "aspnet.security.oauth.github/6.0.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "aspnet.security.oauth.github.6.0.11.nupkg.sha512",
+        "aspnet.security.oauth.github.nuspec",
+        "lib/net6.0/AspNet.Security.OAuth.GitHub.dll",
+        "lib/net6.0/AspNet.Security.OAuth.GitHub.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "AspNet.Security.OAuth.GitHub >= 6.0.11"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\nijas-phases\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "F:\\POC\\Training\\SSOWithUmbraco\\SSOWithUmbraco.Core\\SSOWithUmbraco.Core.csproj",
+      "projectName": "SSOWithUmbraco.Core",
+      "projectPath": "F:\\POC\\Training\\SSOWithUmbraco\\SSOWithUmbraco.Core\\SSOWithUmbraco.Core.csproj",
+      "packagesPath": "C:\\Users\\nijas-phases\\.nuget\\packages\\",
+      "outputPath": "F:\\POC\\Training\\SSOWithUmbraco\\SSOWithUmbraco.Core\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\nijas-phases\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://sitecore.myget.org/F/sc-packages/api/v3/index.json": {},
+        "https://www.myget.org/F/umbracoprereleases/api/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "AspNet.Security.OAuth.GitHub": {
+            "target": "Package",
+            "version": "[6.0.11, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

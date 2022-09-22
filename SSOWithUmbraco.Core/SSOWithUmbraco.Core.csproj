@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNet.Security.OAuth.GitHub" Version="6.0.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Umbraco.Cms.Persistence.Sqlite">
+      <HintPath>..\SSOWithUmbraco\bin\Debug\net6.0\Umbraco.Cms.Persistence.Sqlite.dll</HintPath>
+    </Reference>
+    <Reference Include="Umbraco.Cms.Persistence.SqlServer">
+      <HintPath>..\SSOWithUmbraco\bin\Debug\net6.0\Umbraco.Cms.Persistence.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Umbraco.Cms.StaticAssets">
+      <HintPath>..\SSOWithUmbraco\bin\Debug\net6.0\Umbraco.Cms.StaticAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="Umbraco.Core">
+      <HintPath>..\SSOWithUmbraco\bin\Debug\net6.0\Umbraco.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Umbraco.Examine.Lucene">
+      <HintPath>..\SSOWithUmbraco\bin\Debug\net6.0\Umbraco.Examine.Lucene.dll</HintPath>
+    </Reference>
+    <Reference Include="Umbraco.Infrastructure">
+      <HintPath>..\SSOWithUmbraco\bin\Debug\net6.0\Umbraco.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Umbraco.PublishedCache.NuCache">
+      <HintPath>..\SSOWithUmbraco\bin\Debug\net6.0\Umbraco.PublishedCache.NuCache.dll</HintPath>
+    </Reference>
+    <Reference Include="Umbraco.Web.BackOffice">
+      <HintPath>..\SSOWithUmbraco\bin\Debug\net6.0\Umbraco.Web.BackOffice.dll</HintPath>
+    </Reference>
+    <Reference Include="Umbraco.Web.Common">
+      <HintPath>..\SSOWithUmbraco\bin\Debug\net6.0\Umbraco.Web.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Umbraco.Web.Website">
+      <HintPath>..\SSOWithUmbraco\bin\Debug\net6.0\Umbraco.Web.Website.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

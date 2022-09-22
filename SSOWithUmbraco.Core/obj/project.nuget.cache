@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ihd9kshnR84KMYpiofVnXu+pTQsafrovLcnP0RjS3gS+hVOjG4MQg5yu2pJ5vKZB4NjeCi2uRbepsn7i8P6gXg==",
+  "success": true,
+  "projectFilePath": "F:\\POC\\Training\\SSOWithUmbraco\\SSOWithUmbraco.Core\\SSOWithUmbraco.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nijas-phases\\.nuget\\packages\\aspnet.security.oauth.github\\6.0.11\\aspnet.security.oauth.github.6.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
